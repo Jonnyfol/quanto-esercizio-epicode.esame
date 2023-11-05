@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.main-div{
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1px grey;
+    
+}
+
+
+.logo{
+    width: auto;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 60px;
+}
+
+.divleft{
+    width: 70%;
+    border-right: solid 1px grey;
+    
+}
+
+.divleft2{
+    width: 100%;
+}
+
+.divright{
+   
+    width: 30%;
+}
+
+.imglogo{
+    width: auto;
+    height: 50px;
+} 
+.iconstop{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+ion-icon{
+    margin:10px;
+}
+
+.search-input{
+    margin:10px;
+    font-size: 25px;
+    border-radius: 20px;
+    width: 240px;
+}
+
+
+.spanfor{
+    margin-right: 60px;
+    
+    
+}
+
+.spanrecc{
+    font-weight: bold;
+    
+}
+
+.textdx{
+    margin-top: 15px;
+    border-top: solid 1px grey;
+    padding-top: 30px;
+    cursor:pointer;
+}
+
+.textdx2{
+    padding-top: 45px;
+    cursor: pointer;
+}
+
+.littlepicture{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position:center;
+    size: cover;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.flexcontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title2{
+    margin-bottom: 10px;
+}
+
+.text{
+    color:grey;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.info{
+    color:grey;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.disposition{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.immage{
+    margin-top: 15px;
+    border-top: solid 1px grey;
+    padding-top: 30px;
+    cursor:pointer;
+    padding-right: 20px;
+}
+
+.immage2{
+    padding-top:45px;
+    padding-right: 20px;
+    cursor:pointer;
+}
+
+.iconsright{
+    color:black;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.smalllogo{
+    height: 30px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.div1-1{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+.twitterbar{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.navtwitter{
+    height: 40px;
+    margin-top: 40px;
+   
+}
+
+.maybe{
+    display: flex;
+    justify-content: center;
+    padding-top:80px;
+    color:grey;
+    padding-bottom: 40px;
+    border-bottom: solid 1px grey;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    margin-top:40px;
+    
+}
+
+::placeholder{
+    color:black;
+}
+
+.topics{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.inp{
+    margin-top: 25px;
+    flex-direction: row;
+}
+
+.littlepictureright{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    position:center;
+    size: cover;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.followdescriction{
+    color:grey;
+    padding: 10px;
+    margin-left: 36px;
+    margin-top: -34px;
+
+    display: flex;
+    align-items: center;
+}
+
+.tastefollow{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.divimput{
+    width: 150px;
+   margin-top: -45px;
+   padding: 10px;
+  
+}
+
+.div4{
+    margin:10px;
+    margin-left: 5em;
+}
+
+.inputtopics{
+    margin:20px;
+}
+
+.inputtopics3{
+    margin-top: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 110px;
+    cursor: pointer;
+    border:hidden;
+    background-color: rgb(240, 236, 236);
+
+}
+
+
+.inputtopics1{
+    
+   margin-top: 20px;
+   padding: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.inputtopics1-1{
+    margin-top: 20px;
+   padding: 10px;
+    margin-top: 0px;
+    border-radius: 20px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.lasttitle{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.h{
+    margin-top: 20px;
+}
+
+.see{
+    color:green;
+    text-decoration: underline;
+    margin-top: 40px;
+    cursor:pointer;
+}
+
+.div5{
+    margin:10px;
+    margin-left: 5em;
+}
+
+.inputtopics2{
+    margin-top: 20px;
+   padding: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 80px;
+    cursor: pointer;
+    border:hidden;
+    color: grey;
+}
